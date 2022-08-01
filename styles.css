@@ -14,3 +14,41 @@ body{
     padding-top: 4%;
     color: #EEE4AB;
 }
+.container{
+    text-align: center;
+    background-color: #EEE4AB;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    padding: 10%;
+    box-shadow: 0 1em 3em rgba(2,9, 38, 0.25);
+}
+.search{
+    display: grid;
+    grid-template-columns: 9fr 4fr;
+    gap: 1em;
+    padding: 10px;
+    width: 400px;
+}
+.search input{
+    font-size: 1em;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    background-color: #EEE4AB;
+    border-bottom:2px solid #D67D3E;
+}
+.search input:focus{
+    border-color: #C10000;
+}
+.search button{
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: #f6c865;
+    border: none;
+}
+.search button:hover{
+    background-color: #D67D3E;
+}
