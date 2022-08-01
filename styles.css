@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom right,#C10000,#D67D3E,#FBD685,#D67D3E,#C10000);
+}
+.heading{
+    text-align: center;
+    font-size: 250%;
+    padding-top: 4%;
+    color: #EEE4AB;
+}
