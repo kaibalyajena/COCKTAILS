@@ -10,9 +10,12 @@ body{
 }
 .heading{
     text-align: center;
-    font-size: 250%;
-    padding-bottom: 4%;
+    font-size: 2.5em;
+    padding-bottom: 2%;
     color: #EEE4AB;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin:none;
 }
 .main{
     position: absolute;
@@ -67,7 +70,23 @@ body{
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
+    color: #1e251e;
 }
+result h2:before {
+    content: "";
+    }
 #result{
-    color: #303530;
+    color: #3d3f3d;
+}
+#result h3{
+    color: #1e251e;
+    margin-bottom: 0.5em;
+}
+#result ul{
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#result li{
+    margin-bottom: 0.5em;
 }
